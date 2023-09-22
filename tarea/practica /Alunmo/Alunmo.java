@@ -9,7 +9,7 @@ class Alumno {
     private Tutor tutor;
 
     public Alumno() {
-        // Constructor vacío
+       
     }
 
     public Alumno(String nombre, String carrera, String matricula, String grado, String grupo, Tutor tutor) {
@@ -32,8 +32,8 @@ class Alumno {
 public static void main(String[] args) {
         Telefono telefonoTutor = new Telefono("+52", "981", "111-3777");
         Tutor tutor = new Tutor("Maria", 39, telefonoTutor);
-        Alumno pepito = new Alumno("Roberto", "ISC", "71315", "3ro", "B", tutor);
+        Alumno Robert = new Alumno("Roberto", "ISC", "71315", "3ro", "B", tutor);
 
-        System.out.println(Robert.toString());
+        System.out.println(Robert.toString() );
     }
 }
